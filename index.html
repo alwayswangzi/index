@@ -47,7 +47,7 @@
                     {
                         "type": "iframe",
                         "src": "/dash/",
-                        "height": "100%"
+                        "height": "100%",
                     }
                 ],
                 "toolbar": [
@@ -83,7 +83,7 @@
                             },
                             {
                                 "label": "Video",
-                                "to": "/index?id=4",
+                                "to": "/video_resource_mgmt/",
                                 "activeOn": "this.id == 4"
                             }
                         ],
@@ -101,9 +101,9 @@
             } else if (id == 2) {
                 amisJSON["body"][0]["src"] = "/anyShare/index/"
             } else if (id == 3) {
-                amisJSON["body"][0]["src"] = "/pic_resource_mgmt/index/"
+                amisJSON["body"][0]["src"] = "/pic_resource_mgmt/"
             } else if (id == 4) {
-                amisJSON["body"][0]["src"] = "/video_resource_mgmt/index/"
+                amisJSON["body"][0]["src"] = "/"
             } else if (id == 5) {
 
             };
